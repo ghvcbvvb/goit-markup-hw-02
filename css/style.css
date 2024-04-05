@@ -1,0 +1,160 @@
+/* General atributes */
+
+body {
+   font-family: "Roboto", sans-serif;
+   color: #212121;
+   font-weight: 500;
+   font-style: normal;
+   line-height: auto;
+   letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header & Footer */
+
+.logo-h, .logo-f {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.logo-f {
+    color: #fff;
+}
+
+.logo-item {
+    color: #2196f3;
+}
+
+.link, .link-menu {
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: auto;
+}
+
+.link {
+    color:#757575;
+}
+
+.link:hover, .link-menu:hover {
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.link:focus, .link-menu:focus {
+    color: #2196f3;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #2f303a;
+}
+address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+
+}
+.phisic-address {
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/*Main Page*/
+
+/* Hero section*/
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 136%;
+    color: #fff;
+    background-color: #2f303a;;
+}
+
+.main-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    background-color: #188ce8;;
+}
+.main-button:hover, .main-button:focus {
+    background-color: #2196f3;
+    cursor: pointer;
+}
+
+/* Description section*/
+
+.team-characteristics {
+    font-size: 14px;
+}
+
+.team-ch__title {
+    font-weight: 700;
+}
+.team-ch__description {
+    font-weight: 400;
+    line-height: 171%;
+    color: #757575;
+}
+
+/* 'What We Do' section */
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/*'Our Team' section*/
+.team-member {
+    font-size: 16px;
+}
+
+.team-member__title {
+    color: #757575;
+    font-weight: 400;
+}
+
+/* Portfolio Page particularities*/
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162%;
+    background-color: #f5f4fa;
+}
+
+.filter-button:hover, .filter-button:focus {
+    background-color: #2196f3;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Projects from portfolio*/
+
+.project-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    color: #757575;
+}
